@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  transition: all 0.5s ease;
+  font-family: "Roboto";
+}
+
+body {
+  background-color: #ff608c;
+}
+
+.issues_div,
+.body {
+  height: 100vh;
+}
+
+.body {
+  scroll-snap-type: y mandatory;
+  overflow: auto;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  width: 100%;
+}
+
+.nav h1 {
+  font-size: 2.5rem;
+  font-weight: 1000;
+  font: bold;
+}
+.nav p {
+  font-weight: 1000;
+  font: bold;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 100;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0rem 1rem 1rem 2rem;
+}
+
+footer a {
+  color: black;
+  font-weight: 600;
+}
+.backstage_talks {
+  font-weight: 700;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+}
+
+.issues {
+  padding-top: 2rem;
+}
+.issues p {
+  padding: 0.3rem;
+  padding-right: 1rem;
+  font-size: 1.1rem;
+}
+
+.copyright {
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+  font-weight: 100;
+  font-size: 0.8rem;
+}
+.copyright a {
+  padding-left: 0.3rem;
+  color: black;
+  font-weight: 300;
+}
+
+.issue7:hover,
+.issue6:hover,
+.issue5:hover,
+.issue4:hover,
+.issue3:hover,
+.issue2:hover,
+.issue1:hover {
+  text-decoration: underline;
+}
+.issues_div {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  scroll-snap-align: start;
+  width: 100%;
+}
+
+img {
+  width: 22%;
+  height: 55%;
+}
+
+.issues_div h1 {
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+}
+.issues_div p {
+  padding-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.issues_div a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.selected_stores {
+  padding-top: 1.5rem;
+}
+
+.issues_div a:hover {
+  text-decoration: underline;
+}
+
+.selected_stores a:hover {
+  text-decoration: underline;
+}
+
+#section7 {
+  background-color: #ff608c;
+}
+
+#section6 {
+  background-color: #fff;
+
+}
+#section6 a {
+  color: #ff608c;
+}
+
+#section5 {
+  background-color: #00c1b5;
+}
+
+#section4 {
+  background-color: #ff651a;
+} 
+
+#section3 {
+  background-color: #ffbe00;
+} 
+
+#section2 {
+  background-color: #1d3fbb;
+}
+
+#section1 {
+  background-color: #e30512;
+}
